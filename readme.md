@@ -9,7 +9,7 @@
 
 ## About Laravel
 
-The project use laravel as framework so you can clone this repo. You have to have to install the dependeces by launching the command
+The project use laravel as framework so you can clone this repo. You have to install the dependeces by launching the command
 ```sh
 composer install
 ```
