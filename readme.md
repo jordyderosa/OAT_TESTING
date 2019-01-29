@@ -23,9 +23,9 @@ I've design the folder structure to have api versioning and you can choose the r
 
 ## Endpoints
 
-http://yourdomain/path_to_this_project/public/v1/users
+http://yourdomain/path_to_this_project/public/api/v1/users
 parameters available: limit, offset, name
 
-http://yourdomain/path_to_this_project/public/v1/user/id
+http://yourdomain/path_to_this_project/public/api/v1/user/id
 
 
