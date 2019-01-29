@@ -21,4 +21,11 @@ To gain more flexibility and reutilisation i've used the Repository Pattern Desi
 With more time there could be others improvements to do like create a ValueObject to have all the validation rules under one class: if the project will require a save task you should validate the inputs. In this case it will be helpfull to have a ValueObject to deal with. In this way the code will be more flexible and mantainable and by injecting ValueObject into my functions i will be sure to have all my objects in a valid state without breaking the whole software process. If something will goes wrong the software will raise an exception and i could manage it easly because the error is in only in one piece of my software. Having a ValueObject to store all the validantions rules it will help you to don't repeat code in every forms.
 I've design the folder structure to have api versioning and you can choose the right controller by adding a new route to your route/api.php file.
 
+## Endpoints
+
+http://yourdomain/path_to_this_project/public/v1/users
+parameters available: limit, offset, name
+
+http://yourdomain/path_to_this_project/public/v1/user/id
+
 
