@@ -13,6 +13,20 @@ The project use laravel as framework so you can clone this repo. You have to ins
 ```sh
 composer install
 ```
+Then you have to copy .env.example to create your brand new .env config file. From command line you can launch :
+Windows 
+```sh
+copy .env.example .env 
+```
+Linux
+```sh
+cp .env.example .env 
+```
+Final step: create the APP KEY by launching the command
+
+```sh
+php artisan key:generate
+```
 and everything will work immediately.
 
 ## About Software Design
